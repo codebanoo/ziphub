@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33927.249
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf.GoogleSheetTest", "..\..\ArashCmsSolution\Wpf\Wpf.GoogleSheetTest\Wpf.GoogleSheetTest.csproj", "{392B08BD-2F4E-4114-BED8-BC383D2D3163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{392B08BD-2F4E-4114-BED8-BC383D2D3163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392B08BD-2F4E-4114-BED8-BC383D2D3163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392B08BD-2F4E-4114-BED8-BC383D2D3163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392B08BD-2F4E-4114-BED8-BC383D2D3163}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4461A2C-EE83-46D7-A915-5ABEE2C3BB55}
+	EndGlobalSection
+EndGlobal
