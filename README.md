@@ -25,7 +25,7 @@ A simple utility built in C# (.NET) to zip files and folders. This project allow
 
 ```bash
 # Clone the repository
-git clone <repo-link>
+git clone https://github.com/codebanoo/ziphub.git
 
 # Open the solution in Visual Studio
 
