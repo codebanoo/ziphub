@@ -1,15 +1,15 @@
-# 📦 Zip File Utility
+# 📦 ZipHub - Zip File Utility
 
-A simple utility built in C# (.NET) to zip files and folders. This project allows users to compress multiple files or directories into a single `.zip` file for easier storage or sharing.
+A lightweight desktop tool built with C# (.NET) for zipping files and folders. Ideal for users who need a simple way to compress content into `.zip` archives.
 
 ---
 
 ## 🔍 Features
 
-- ✅ Compress files and directories into a `.zip` archive
-- 🖥️ Simple graphical user interface (GUI) for easy usage
-- 📂 Supports batch zipping of multiple files/folders
-- 📤 Easy extraction of compressed files
+- ✅ Compress individual files or entire directories into a `.zip` archive
+- 📁 Batch processing support — select multiple files/folders at once
+- 🖥️ Clean and intuitive Windows Forms GUI
+- 📤 Easily extract zipped content using built-in Windows tools
 
 ---
 
@@ -17,21 +17,38 @@ A simple utility built in C# (.NET) to zip files and folders. This project allow
 
 - C# (.NET Framework)
 - Windows Forms (WinForms)
-- `System.IO.Compression` namespace for zipping functionality
+- `System.IO.Compression` (for compression logic)
+
+---
+
+## ⚙️ Requirements
+
+- .NET Framework 4.7.2 or higher
+- Visual Studio 2019 or later
+
+---
+
+## 🗂️ Project Structure
+
+- `ZipHub`: Main WinForms application
+- `ZipHelper.cs`: Handles zip logic using .NET’s compression libraries
+- `MainForm.cs`: UI logic and user interactions
 
 ---
 
 ## 🚀 How to Run
 
 ```bash
-# Clone the repository
+# 1. Clone the repository
 git clone https://github.com/codebanoo/ziphub.git
 
-# Open the solution in Visual Studio
+# 2. Open the solution in Visual Studio
+ZipHub.sln
 
-# Build the project (Release or Debug mode)
+# 3. Build the project (choose Release or Debug)
 
-# Navigate to the /bin/Release folder
+# 4. Navigate to the output folder
+cd ZipHub/bin/Release
 
-# Run the executable file
-Wpf.CreateZipFromFiles.exe
+# 5. Run the executable
+ZipHub.exe
