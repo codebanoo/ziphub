@@ -4,6 +4,11 @@ A lightweight desktop tool built with C# (.NET) for zipping files and folders. I
 
 ---
 
+## 📸 Screenshots
+
+![Code enviroment](images/ziphub.png)
+---
+
 ## 🔍 Features
 
 - ✅ Compress individual files or entire directories into a `.zip` archive
